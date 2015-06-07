@@ -1,4 +1,4 @@
-A good rule of thumb is:
+###A good rule of thumb is:
 For a simple site OOP will add unnecessary complexity
 for a complex site OOP will add NECESSARY simplicity
 
@@ -17,3 +17,16 @@ full, where the student sits and also the class count can be updated all by
 a simple issue of a command like put new student in the classroom.
 
 OOP is a great fit when working with databases like MySQL.
+
+####For object ONLY!
+When I create a new instance of a class say of class Person like:
+```
+$natac = new Person();
+$x = $natac;
+```
+
+The $x equal part is really an automatic reference assignment. Therefore no 
+new amount of memory it taken up. This was done in php 5.5. Before hand I 
+would have needed to put &= like a normal reference. This may still appear to 
+signal the intent of the programmer or because the code was written prior to 
+php 5.5.
