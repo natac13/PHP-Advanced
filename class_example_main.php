@@ -4,6 +4,10 @@
         protected $input2;
         private $output;
 
+
+// Note:
+// functions are public by default, however they can also be private and
+// protected just like variables.
         function setInput1($number) {
             $this->input1 = (int) $number;
         }
