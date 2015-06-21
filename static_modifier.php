@@ -38,6 +38,8 @@ echo "<br>";
 // Recall having to be carefully in python with making mutable objects as
 // class variables like a list and dicts.
 //
+// When I get a paamayim nekudotayim error from php this is what it is
+// referring to. Not correctly calling a static variable in a class.
 
 
 // Static variable are shared throughout the class tree. Therefore when I
